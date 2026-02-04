@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact WellNest Group - Get in Touch for Diabetic Nutrition Solutions</title>
+    <meta name="description" content="Contact WellNest Group for diabetic nutrition solutions, partnerships, or inquiries. Find our locations across India and connect with our team for NutraBridge, Ahara, and ZeroSpike.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>WellNest<span>Group</span></h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#brands" class="nav-link">Our Brands</a></li>
+                    <li><a href="why-nutrbridge.html" class="nav-link">Why NutraBridge</a></li>
+                    <li><a href="founders.html" class="nav-link">Founders</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <div class="contact-hero-content">
+                    <h1>Get in Touch</h1>
+                    <h2>Let's Transform Diabetes Nutrition Together</h2>
+                    <p>Whether you're a customer, partner, healthcare provider, or just curious about our mission, we'd love to hear from you.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-options">
+            <div class="container">
+                <h2 class="section-title">How Can We Help You?</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">🍽️</div>
+                        <h3>Customer Inquiries</h3>
+                        <p>Questions about our products, locations, or services? We're here to help!</p>
+                        <a href="#customer-form" class="btn btn-outline">Contact Support</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🤝</div>
+                        <h3>Partnership Opportunities</h3>
+                        <p>Interested in partnering with us for gym locations, retail, or distribution?</p>
+                        <a href="#partnership-form" class="btn btn-outline">Explore Partnership</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🏥</div>
+                        <h3>Healthcare Providers</h3>
+                        <p>Healthcare professionals looking to refer patients or collaborate on research.</p>
+                        <a href="#healthcare-form" class="btn btn-outline">Healthcare Portal</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📢</div>
+                        <h3>Media & Press</h3>
+                        <p>Journalists and content creators interested in our story and mission.</p>
+                        <a href="#media-form" class="btn btn-outline">Media Inquiries</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-forms">
+            <div class="container">
+                <!-- Customer Contact Form -->
+                <div id="customer-form" class="form-section">
+                    <h3>Customer Support</h3>
+                    <form class="contact-form" id="customerSupportForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="customer-name">Full Name *</label>
+                                <input type="text" id="customer-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="customer-email">Email Address *</label>
+                                <input type="email" id="customer-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="customer-phone">Phone Number</label>
+                                <input type="tel" id="customer-phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="customer-brand">Brand Interest</label>
+                                <select id="customer-brand" name="brand">
+                                    <option value="">Select Brand</option>
+                                    <option value="nutrabridge">NutraBridge</option>
+                                    <option value="ahara">Ahara</option>
+                                    <option value="zerospike">ZeroSpike</option>
+                                    <option value="all">All Brands</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="customer-subject">Subject *</label>
+                            <input type="text" id="customer-subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="customer-message">Message *</label>
+                            <textarea id="customer-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Partnership Form -->
+                <div id="partnership-form" class="form-section" style="display: none;">
+                    <h3>Partnership Inquiry</h3>
+                    <form class="contact-form" id="partnershipForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="partner-company">Company Name *</label>
+                                <input type="text" id="partner-company" name="company" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="partner-name">Your Name *</label>
+                                <input type="text" id="partner-name" name="name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="partner-email">Email Address *</label>
+                                <input type="email" id="partner-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="partner-phone">Phone Number *</label>
+                                <input type="tel" id="partner-phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="partner-type">Partnership Type *</label>
+                            <select id="partner-type" name="type" required>
+                                <option value="">Select Partnership Type</option>
+                                <option value="gym">Gym/Fitness Center</option>
+                                <option value="retail">Retail Store</option>
+                                <option value="distribution">Distribution</option>
+                                <option value="franchise">Franchise</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="partner-message">Tell us about your partnership interest *</label>
+                            <textarea id="partner-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Partnership Inquiry</button>
+                    </form>
+                </div>
+
+                <!-- Healthcare Form -->
+                <div id="healthcare-form" class="form-section" style="display: none;">
+                    <h3>Healthcare Professional Inquiry</h3>
+                    <form class="contact-form" id="healthcareForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="healthcare-name">Full Name *</label>
+                                <input type="text" id="healthcare-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="healthcare-credentials">Credentials *</label>
+                                <input type="text" id="healthcare-credentials" name="credentials" placeholder="e.g., MD, RD, CDE">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="healthcare-email">Email Address *</label>
+                                <input type="email" id="healthcare-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="healthcare-phone">Phone Number</label>
+                                <input type="tel" id="healthcare-phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="healthcare-institution">Institution/Hospital</label>
+                            <input type="text" id="healthcare-institution" name="institution">
+                        </div>
+                        <div class="form-group">
+                            <label for="healthcare-message">How can we collaborate? *</label>
+                            <textarea id="healthcare-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Inquiry</button>
+                    </form>
+                </div>
+
+                <!-- Media Form -->
+                <div id="media-form" class="form-section" style="display: none;">
+                    <h3>Media & Press Inquiry</h3>
+                    <form class="contact-form" id="mediaForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="media-outlet">Media Outlet *</label>
+                                <input type="text" id="media-outlet" name="outlet" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="media-name">Your Name *</label>
+                                <input type="text" id="media-name" name="name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="media-email">Email Address *</label>
+                                <input type="email" id="media-email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="media-deadline">Deadline (if applicable)</label>
+                                <input type="date" id="media-deadline" name="deadline">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="media-subject">Story Topic *</label>
+                            <input type="text" id="media-subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="media-message">Message Details *</label>
+                            <textarea id="media-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Media Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations-map">
+            <div class="container">
+                <h2 class="section-title">Our Locations Across India</h2>
+                <p class="section-subtitle">Find us in major cities across India, with more locations opening soon</p>
+                
+                <div class="map-container">
+                    <div class="india-map">
+                        <div class="map-placeholder">
+                            <div class="map-marker delhi" data-city="Delhi NCR">
+                                <span>Delhi NCR</span>
+                            </div>
+                            <div class="map-marker mumbai" data-city="Mumbai">
+                                <span>Mumbai</span>
+                            </div>
+                            <div class="map-marker bangalore" data-city="Bangalore">
+                                <span>Bangalore</span>
+                            </div>
+                            <div class="map-marker chennai" data-city="Chennai">
+                                <span>Chennai</span>
+                            </div>
+                            <div class="map-marker kolkata" data-city="Kolkata">
+                                <span>Kolkata</span>
+                            </div>
+                            <div class="map-marker hyderabad" data-city="Hyderabad">
+                                <span>Hyderabad</span>
+                            </div>
+                            <div class="map-marker pune" data-city="Pune">
+                                <span>Pune</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-details">
+                    <h3>Location Information</h3>
+                    <div class="location-grid">
+                        <div class="location-info">
+                            <h4>Delhi NCR</h4>
+                            <p><strong>NutraBridge:</strong> 8 Gold's Gym locations</p>
+                            <p><strong>Ahara:</strong> Khan Market, Connaught Place</p>
+                            <p><strong>ZeroSpike:</strong> Available in all major retail stores</p>
+                        </div>
+                        <div class="location-info">
+                            <h4>Mumbai</h4>
+                            <p><strong>NutraBridge:</strong> 6 Gold's Gym locations</p>
+                            <p><strong>Ahara:</strong> Bandra, Lower Parel</p>
+                            <p><strong>ZeroSpike:</strong> Available in all major retail stores</p>
+                        </div>
+                        <div class="location-info">
+                            <h4>Bangalore</h4>
+                            <p><strong>NutraBridge:</strong> 5 Gold's Gym locations</p>
+                            <p><strong>Ahara:</strong> Indiranagar, Koramangala</p>
+                            <p><strong>ZeroSpike:</strong> Available in all major retail stores</p>
+                        </div>
+                        <div class="location-info">
+                            <h4>Other Cities</h4>
+                            <p><strong>Chennai, Hyderabad, Kolkata, Pune:</strong> Limited locations available</p>
+                            <p><strong>Coming Soon:</strong> Ahmedabad, Jaipur, Lucknow, Chandigarh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container">
+                <h2 class="section-title">Other Ways to Reach Us</h2>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="method-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>General Inquiries: info@wellnestgroup.com</p>
+                        <p>Customer Support: support@wellnestgroup.com</p>
+                        <p>Partnerships: partnerships@wellnestgroup.com</p>
+                        <p>Media: media@wellnestgroup.com</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>Customer Care: +91 80XXXXXX08</p>
+                        <p>Partnership Hotline: +91 80XXXXXX09</p>
+                        <p>WhatsApp Support: +91 80XXXXXX10</p>
+                        <p>Available: Monday to Saturday, 9AM - 7PM</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="method-icon">📍</div>
+                        <h3>Head Office</h3>
+                        <p>WellNest Group Pvt. Ltd.</p>
+                        <p>123, Business Park, Sector 5</p>
+                        <p>Karnal, Haryana - 132001</p>
+                        <p>India</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="social-section">
+            <div class="container">
+                <h2 class="section-title">Connect With Us</h2>
+                <p class="section-subtitle">Follow us for updates, recipes, and diabetes management tips</p>
+                <div class="social-links-large">
+                    <a href="#" class="social-link">
+                        <span class="social-icon">📷</span>
+                        <h4>Instagram</h4>
+                        <p>@wellnestgroup</p>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">💼</span>
+                        <h4>LinkedIn</h4>
+                        <p>WellNest Group</p>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">📘</span>
+                        <h4>Facebook</h4>
+                        <p>/wellnestgroup</p>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">🐦</span>
+                        <h4>Twitter</h4>
+                        <p>@wellnest_group</p>
+                    </a>
+                    <a href="#" class="social-link">
+                        <span class="social-icon">📹</span>
+                        <h4>YouTube</h4>
+                        <p>WellNest Group</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>Are all your products certified diabetic-friendly?</h3>
+                        <p>Yes, all our products are tested and certified by nutritionists to ensure they meet strict glycemic control standards.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I order online for home delivery?</h3>
+                        <p>ZeroSpike products are available on major e-commerce platforms. NutraBridge and Ahara currently operate through physical locations only.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer nutritional consultations?</h3>
+                        <p>Yes, we provide free nutritional consultations for customers with diabetes. Please contact our support team to schedule.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are your products suitable for non-diabetics?</h3>
+                        <p>Absolutely! Our products are healthy and delicious for everyone, not just people with diabetes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WellNest Group</h3>
+                    <p>Nourishing diabetes management through delicious, everyday food.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="nutrabridge.html">NutraBridge</a></li>
+                        <li><a href="ahara.html">Ahara</a></li>
+                        <li><a href="zerospike.html">ZeroSpike</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@wellnestgroup.com</p>
+                    <p>Phone: +91 XXXXX XXXXX</p>
+                    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WellNest Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Form switching functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactCards = document.querySelectorAll('.contact-card');
+            const formSections = document.querySelectorAll('.form-section');
+            
+            contactCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const targetForm = this.querySelector('a').getAttribute('href');
+                    
+                    // Hide all forms
+                    formSections.forEach(form => {
+                        form.style.display = 'none';
+                    });
+                    
+                    // Show target form
+                    const targetElement = document.querySelector(targetForm);
+                    if (targetElement) {
+                        targetElement.style.display = 'block';
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+            
+            // Form validation and submission
+            const forms = document.querySelectorAll('.contact-form');
+            forms.forEach(form => {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    if (validateForm(this)) {
+                        // Show success message
+                        const successDiv = document.createElement('div');
+                        successDiv.className = 'success-message';
+                        successDiv.innerHTML = '<p>Thank you for your message! We will get back to you within 24 hours.</p>';
+                        
+                        this.parentNode.insertBefore(successDiv, this);
+                        this.style.display = 'none';
+                        
+                        // Reset form
+                        this.reset();
+                        
+                        // Remove success message after 5 seconds
+                        setTimeout(() => {
+                            successDiv.remove();
+                            this.style.display = 'block';
+                        }, 5000);
+                    }
+                });
+            });
+        });
+        
+        // Map marker interactions
+        const mapMarkers = document.querySelectorAll('.map-marker');
+        mapMarkers.forEach(marker => {
+            marker.addEventListener('click', function() {
+                const city = this.getAttribute('data-city');
+                // You could show more detailed information about the city here
+                console.log('Clicked on:', city);
+            });
+        });
+    </script>
+</body>
+</html>
